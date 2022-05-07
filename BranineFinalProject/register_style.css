@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/*
+   BranineFinalProject
+
+   Author:  Youcef Branine 
+   Date:     5/12/2022
+   Filename: register_style.css
+   */
+
+   body{
+      background-image: linear-gradient( to bottom right,  rgb(40, 207, 241),
+ rgb(193, 233, 33));
+   }
+h1 {
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+   font-size: 1.7em;
+   letter-spacing: 0.1em;
+   margin-left: 20px;
+}
+form {
+   padding: 0px 0px 10px 20px;   
+}
+
+fieldset {
+   width: 300px;
+   padding: 15px;
+}
+
+label {
+   display: block;
+   margin: 0px 0px 10px 0px;
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+   
+}
+
+select {
+   display: block;
+   margin: 15px 0px;
+   font-size: 1em;
+}
+
+select option {
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+   font-size: 0.9em;
+}
+
+input {
+   display: block;
+   margin: 0px 0px 10px 0px;
+}
+
+
+input[type="submit"] {
+    color: green;
+   font-size: 1.2em;
+   display: inline-block;
+   margin: 10px auto
+}
+
+input[type="date"] {
+
+   font-size: 1.5em;
+   display: block;
+   margin: 15px 0px;
+   
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <!--
+   BranineFinalProject
+
+   Author:  Youcef Branine 
+   Date:     5/12/2022
+   Filename: register.html
+
+   -->
+   <meta charset="utf-8">
+   <title>YB</title>
+   <link rel="icon" type="image/x-icon" href="YB.png">
+   <link rel="stylesheet" href="register_style.css" />
+
+</head>
+<body>
+   <h1>Please enter your Information To Register for a Free Account </h1>
+   <form  method="post">
+      <fieldset>
+          
+         <label for="email"><b>Email</b></label>
+         <input type="text" name="email" required> <!-- putting the type & the name to make it easy for the user for any next use.-->
+
+         <label for="fnBox"><b>First Name</b></label>
+         <input type="text"  name="firstName" />
+
+         <label for="lnBox"><b>Last Name</b></label>
+         <input type="text"  name="lastName" />
+
+         <label for="birthday"><b>DOB</b></label>
+         <input type="date"  name="birthday">
+
+         <label for="unBox"><b>UserName</b></label>
+         <input type="text"  name="UserName" maxlength="11" pattern="^uw-\d{2}-\d{5}" />
+        
+         <label for="psw"><b>Password</b></label>
+         <input type="password"  name="psw" required>
+         
+         <label for="psw-repeat"><b>Repeat Password</b></label>
+         <input type="password"  name="psw-repeat" required>
+        
+         <label for="GenderSL"><b>Gender</b></label>
+         <select name="Gender">
+            <option value="1">Male</option>
+            <option value="2">Female</option>     
+         </select>
+        
+         <label>
+         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+
+      </fieldset>
+      <input type="submit" value="Submit" />
+   </form>
+</body>
+</html>

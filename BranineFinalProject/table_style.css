@@ -1,0 +1,29 @@
+@charset "utf-8";
+/*
+   BranineFinalProject
+   
+   Author:  Youcef Branine 
+   Date:     5/12/2022
+   Filename: table_style.css
+
+*/
+
+table, th, td  {
+    background-color: rgb(239, 230, 153);
+    border: 2px solid rgb(12, 9, 195);
+    font-size: 1.2em;
+     font-family: cursive;
+  }
+  h2, blockquote{
+    font-family: cursive;
+    text-align:center;
+    font-size: 1.8em;
+    color: rgb(54, 75, 239);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0), 0px 0px 6px  rgb(248, 0, 0);
+  }
+
+  
+  figcaption{
+    font-size: 1.2em;
+    font-family: cursive;
+  }
